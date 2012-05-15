@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.iArtNorfolk.view"
+	version 	= "1.0.0">
+
+	<name>iArtNorfolk</name>
+
+	<description>
+		Art in Downtown, Norfolk Virginia
+	</description>
+
+	<author href="http://iArtNorfolk.com"
+		email="apps@iArtNorfolk.com">
+		iArtNorfolk.com
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+
+	<preference name="orientation" value="portrait" />
+</widget>

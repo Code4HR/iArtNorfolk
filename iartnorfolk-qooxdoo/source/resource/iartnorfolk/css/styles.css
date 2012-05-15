@@ -1,0 +1,168 @@
+
+.myDetailThumbButton {
+
+  cursor: pointer;
+  color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e2e0e2), to(#d8f5f8));
+  border: 0px;
+  font: 16px Helvetica;
+  line-height : 16px; 
+  -webkit-border-radius: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+ /*  padding-top: 4px;
+  padding-bottom: 4px; */
+  margin-top: 0px;
+  margin-bottom: 0px; 
+/*  -webkit-background-clip: padding-box; */
+  text-align: center;
+
+}  
+
+.details_title {
+	background-color: #000;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    font-style: italic;
+    font-size: 1.3em;
+  	font-weight: bold;
+    font: bold 22px Helvetica italic;
+	text-align: center;
+}
+
+.details_image {
+	text-align: left;
+	margin: 0px auto;
+}
+
+.details_header {
+    font: bold x-large Helvetica italic;
+}
+
+.details_header_Description {
+    font: bold x-large Helvetica italic;
+}
+
+.details_info {
+    font: normal large Helvetica;
+}
+
+.details_info_Description {
+    font: normal large Helvetica;
+}
+
+.details_seperator {
+    font: bold x-large Helvetica italic;
+}
+
+.details_seperator_Description {
+    font: bold x-large Helvetica italic;
+}
+
+.list_page_item {
+}
+
+.list_page_item_header {
+    font: bold x-large Helvetica italic;
+}
+
+.list_page_item_Artists {
+    font: normal large Helvetica italic;
+}
+
+
+.showPointer {
+	cursor: pointer;
+}
+  
+.giveSpace {
+  margin-left: 2px;
+  /* works best on android by setting only this - I think there's a conflict in that css
+  margin-right: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  */
+}
+
+.giveVerticalSpaceTop {
+  margin-top: 8px;
+}
+
+.giveVerticalSpace {
+  margin-bottom: 8px;
+}
+
+.setCenter {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.setLeft {
+  text-align: left;
+}
+
+.setRight {
+  text-align: right;
+}
+
+
+
+/* over-write iOS and Android CSS to make them relatively consistent-looking */
+.root {
+  background: rgb(197,204,211) ;
+}
+
+.root > * {
+  background: rgb(197,204,211);
+}
+
+/* fixUIMore: not working... in android this is gold, but blue in iOS 
+ul li.active, ul li.selected {
+  #gradient > .vertical-three(#ffdb66, #e89c00, #fdd824);
+  color: #000;
+}
+*/
+
+.navigationbar {
+	background-image: -webkit-gradient(linear,center top,center bottom,from( #CDD5DF),color-stop(50%, #8195AF),to( #6D84A2));
+	background-image: -webkit-linear-gradient(top, #CDD5DF, #8195AF 50%, #6D84A2);
+	background-image: -moz-linear-gradient(top, #CDD5DF, #8195AF 50%, #6D84A2);
+	background-image: linear-gradient(to bottom, #CDD5DF, #8195AF 50%, #6D84A2);
+	height: 45px;
+	border-bottom: 0px solid #2D3642;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul {
+  .border-radius(8px);
+  .background-clip(padding-box);
+  color: black;
+  background: #fff;
+  border: 1px solid #B4B4B4;
+  font: bold 17px Helvetica;
+  margin-bottom: 10px;
+}
+
+ul li {
+  color: #676;
+  border-top-color: #B4B4B4;
+}
+
+ul li.arrow {
+  background: url("../icon/ios/arrow.png") no-repeat right center;
+}
+
+ul li.active.arrow,  ul li.selected.arrow {
+  background: url("../icon/ios/arrow_pressed.png") no-repeat right center, -webkit-gradient(linear, left top, left bottom, from(#4583fd), to(#194ae4));
+  background: url("../icon/ios/arrow_pressed.png") no-repeat right center, -webkit-linear-gradient(top, #4583fd, #194ae4);
+  background: url("../icon/ios/arrow_pressed.png") no-repeat right center, -moz-linear-gradient(top, #4583fd, #194ae4);
+  background: url("../icon/ios/arrow_pressed.png") no-repeat right center, linear-gradient(to bottom, #4583fd, #194ae4);
+}
+
+ul li.active,  ul li.selected {
+  #gradient > .vertical(#4583fd, #194ae4);
+  color: #fff;
+}
+
+
