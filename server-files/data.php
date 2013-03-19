@@ -12,7 +12,7 @@
 // allow others to access the data - and me to test from the desktop
 header('Access-Control-Allow-Origin: *');
 
-$mainArtImportXMl = 'http://www.norfolk.gov/cultural_affairs/public_art_downtown.xml';
+$mainArtImportXMl = 'http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml';
 
 
 // -------------------------------------------------------------------------------
